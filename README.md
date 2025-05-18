@@ -104,7 +104,7 @@ Para utilizar o Time-de-Agentes-Pesquisadores-Engenheiros e gerar seus próprios
 4.  **Defina o Resíduo de Interesse:** Execute as células que definem os papeis dos agentes.  Encontre a célula no notebook onde o tópico do resíduo é definido. Edite a string com o nome ou descrição do resíduo para o qual você deseja buscar aplicações e criar um plano experimental (ex: `"borra de café"`, `"cinzas de casca de arroz"`, `"plástico PET pós-consumo"`).
 
 
-5.  **Acesse os Relatórios Finais:** Ao final da execução, o `agente_revisor` (ou a etapa final do pipeline) irá gerar os relatórios completos contendo os planos experimentais detalhados nos formatos Microsoft Word (.docx) ou PDF (.pdf).
+5.  **Acesse os Relatórios Finais:** Ao final da execução, uma vez terminado o relatório voce poderá executar os códigos para gerar os relatórios completos contendo os planos experimentais detalhados nos formatos Microsoft Word (.docx) ou PDF (.pdf).
     * Estes arquivos serão salvos no seu dispositivo.
    
 
@@ -113,6 +113,7 @@ Pronto! Agora você tem planos experimentais revisados e prontos para serem leva
 ### Contribuições 🤝
 
 Sugestões, feedbacks e comentários são extremamente bem vindos. Sou apenas um engenheiro de materiais entusiasmado com as oportunidade que a Alura me deu para aprender um pouco mais.
+Deixarei o código aberto e sugiro que outras áreas também utilizem este código para testar e adaptá-lo para sua realidade alterando as instruções dos agentes.
 
 ### Licença 📄
 
