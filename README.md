@@ -55,3 +55,65 @@ graph TD
     D --> E(agente_revisor: Revisa Planos: Lab e Escalonamento)
     E --> F{Output Final: Planos Revisados}
     F --> G[Relatório Detalhado em .docx/.pdf]
+```
+
+### Funcionalidades e Vantagens ✨
+
+* **Pesquisa Acelerada:** Passa de um tópico a um plano experimental em tempo recorde.
+* **Curadoria Inteligente:** Foco em artigos de alta qualidade e relevância prática.
+* **Dados Estruturados:** Extração clara de parâmetros de processo.
+* **Planejamento Robusto:** Incorporação automática de princípios de Design de Experimentos.
+* **Validação Cruzada:** O agente_revisor adiciona uma camada crucial de praticidade e visão de escalonamento.
+* **Output Pronto para Uso:** Geração de relatórios completos em formatos Microsoft Word (.docx) e PDF (.pdf), facilitando o compartilhamento e a execução em laboratório.
+* **Reproducibilidade:** Os planos detalhados promovem a padronização dos experimentos.
+
+### Por Que Isso é Importante (Muito Além dos Resíduos!) 🚀
+
+Este projeto é mais do que uma ferramenta para resíduos; é uma **prova de conceito poderosa** para a automação de *qualquer* fluxo de pesquisa acadêmica que envolva:
+
+* Revisão sistemática da literatura.
+* Extração de dados e parâmetros chave.
+* Planejamento experimental baseado em evidências.
+* Revisão prática e de escalonamento.
+
+A estrutura de agentes especializados e colaborativos pode ser facilmente adaptada para outras áreas da ciência e engenharia (descoberta de fármacos, síntese química, otimização de processos, etc.), democratizando o acesso a expertise e acelerando a fronteira do conhecimento.
+
+Estamos construindo o futuro da pesquisa, uma equipe de agentes por vez!
+
+### Começe aqui 🛠️
+
+Para utilizar o Time-de-Agentes-Pesquisadores-Engenheiros e gerar seus próprios planos experimentais a partir de um resíduo, siga estes passos no Google Colab:
+
+1.  **Acesse o Notebook:** Abra o notebook principal do projeto (`Time-de-Agentes-Pesquisadores-Engenheiros`) no Google Colab. Você precisará de uma conta Google para acessá-lo.
+
+
+2.  **Configure o Ambiente e Instale Dependências:** Uma vez no notebook, execute a primeira célula de código. Esta célula é responsável por:
+    * Configurar o ambiente Python.
+    * Instalar todas as bibliotecas Python necessárias que os agentes utilizam (ex: para chamadas à API do Google Search, manipulação de dados, geração de arquivos .docx e .pdf, etc.).
+    * Você verá algo como:
+        ```bash
+        !pip install -q pandas requests python-docx reportlab # Adicione aqui suas libs reais
+        # Outras configurações iniciais, se houver
+        ```
+
+3.  **Execute o Pipeline dos Agentes:** Agora, execute as células subsequentes do notebook em sequência. Cada célula, ou um grupo delas, invocará a lógica de um dos agentes (`agente_buscador`, `agente_planejador`, `agente_redator`, `agente_revisor`) na ordem correta.
+    * Você pode executar as células uma por uma para acompanhar cada etapa do processo.
+    * Alternativamente, após definir o resíduo e instalar as dependências, você pode usar a opção "Executar tudo" do Colab (no menu "Ambiente de execução") para rodar o pipeline completo.
+    * Aqui você pode se sentir livre para editar as instruções conforme lhe for conveniênte desde que siga a lógica adotada no fluxograma anterior.
+
+4.  **Defina o Resíduo de Interesse:** Execute as células que definem os papeis dos agentes.  Encontre a célula no notebook onde o tópico do resíduo é definido. Edite a string com o nome ou descrição do resíduo para o qual você deseja buscar aplicações e criar um plano experimental (ex: `"borra de café"`, `"cinzas de casca de arroz"`, `"plástico PET pós-consumo"`).
+
+
+5.  **Acesse os Relatórios Finais:** Ao final da execução, o `agente_revisor` (ou a etapa final do pipeline) irá gerar os relatórios completos contendo os planos experimentais detalhados nos formatos Microsoft Word (.docx) ou PDF (.pdf).
+    * Estes arquivos serão salvos no seu dispositivo.
+   
+
+Pronto! Agora você tem planos experimentais revisados e prontos para serem levados para a bancada do laboratório.
+
+### Contribuições 🤝
+
+Sugestões, feedbacks e comentários são extremamente bem vindos. Sou apenas um engenheiro de materiais entusiasmado com as oportunidade que a Alura me deu para aprender um pouco mais.
+
+### Licença 📄
+
+[Informação sobre a licença do código.]
